@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eunoia</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Yomogi&display=swap"
+      rel="stylesheet"
+    />
+    />
+
+    <!-- Feather Icons -->
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous" />
+    <!-- My Style -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NavBar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        >Eunoia<span>・</span><span class="jap">ユーノイア</span>
+      </a>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#ebaut">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#galeri">Gallery</a>
+      </div>
+
+      <div class="navbar-extra">
+       
+        <!-- <div href="#" id="search" class="search-bar"
+          ><input type="text" placeholder="Search Product..">
+          <div class="search">
+            <i class="fa-regular fa-magnifying-glass"></i>
+
+          </div>
+          <div class="cancel-icon">
+            <i class="fa-thin fa-circle-xmark"></i>
+          </div>
+          <div class="search-data">
+
+          </div>
+          <script>
+            const searchBox = document.querySelector(".search-bar");
+            const searchBtn = document.querySelector(".search-icon");
+            const cancelBtn = document.querySelector(".cancel-icon");
+            const searchInput = document.querySelector(".input");
+            const searchData = document.querySelector(".search-data");
+            searchBtn.onclick=()=>{
+              searchBox.classList.add("active");
+              searchBtn.classList.add("active");
+              cancelBtn.classList.add("active");
+              searchInput.focus();
+              if(searchInput.value !=""){
+              var values=searchInput.value;
+              searchData.classList.remove("active");
+              searchData.innerHTML="Penelusuran anda"+"<span style='font-weight:500;'>" +values+"</span>";
+            
+            } else{
+              searchData.textContent="";
+            }
+            }
+
+cancelBtn.onclick=()=>{
+  searchBox.classList.remove("acive");
+  searchBtn.classList.remove("acive");
+  searchBox.classList.remove("acive");
+  searchBox.classList.remove("acive");
+  searchdata.classList.toggle("active");
+  searchInput.value="";
+}
+
+          </script>
+        </div> -->
+
+<div class="search-box">
+  <div class="search-icon">
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="search-input">
+  <input type="text" class="input" placeholder="Search Product...">
+</div>
+</div>
+         <a href="#" id="shopping-cart" class="cart"
+          ><i class="fa-solid fa-cart-shopping"></i></i
+        ></a>
+        <a href="#" id="ham-menu"
+          ><i><i class="fa-solid fa-bars"></i></i
+        ></a>
+      </div>
+    </nav>
+    <!-- NavBaar End -->
+
+    <!-- Hero Action Start-->
+    <section class="hero" id="#">
+      <main class="content">
+        <div class="isi">
+          <h1>Unique Gift Set just for  <span>You!</span></h1>
+          <p>
+            [Limited Edition] Fan Merchandise Gift Set based on a current popular game, Genshin Impact ~ Archon Series: 
+            Carmen, Lapis, Umbrosa, & Sapientia. Available on shop, take yours now!
+          </p>
+          <a href=https://linktr.ee/eunoiateacandle class="cta">Beli Sekarang</a>
+        </div>
+      </main>
+    </section>
+
+    <!-- Hero Action End-->
+
+    <!-- About Section Start -->
+    <section id="ebaut" class="about">
+      <div class="row">
+        <div class="about-img">
+          <img src="img/foto2.jpeg" alt="#ebaut" />
+        </div>
+        <div class="content">
+          <h1>About us</h1>
+          <p>
+            Eunoia – Tea & Candle is a small business from Jakarta, Indonesia selling gift sets of handmade cake candle & homemade tea blends with unique 
+            concept as “Afternoon Tea Time” with time limited various seasonal theme.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Shop Section Start -->
+    <section id="shop" class="shop">
+      <h1>Our Shop</h1>
+      <div class="row">
+
+        <div class="menu-card">
+          <div class="img-wrapper" id="container">
+            <img src="./img/5.png" alt="" id="myimg" />
+          </div>
+          <h2>Carmen</h2>
+          <h3 class="menu-card-title">
+            Cake candle inspired from Anemo Archon, Venti. 2 layered cake-shaped
+            candle with fresh Dandelion scent to brighten your day
+          </h3>
+        </div>
+
+        <div class="menu-card">
+          <div class="img-wrapper" id="container">
+            <img src="./img/6.png" alt="" id="myimg" />
+          </div>
+          <h2>Lapis</h2>
+          <h3 class="menu-card-title">
+            Cake candle inspired from Geo Archon, Zhongli. Muffin-shaped candle
+            with musky Mahogany scent reminding you of verdant forest
+          </h3>
+        </div>
+
+        <div class="menu-card">
+          <div class="img-wrapper" id="container">
+            <img src="./img/7.png" alt="" id="myimg" />
+          </div>
+          <h2>Umbrosa</h2>
+          <h3 class="menu-card-title">
+            Cake candle inspired from Electro Archon, Raiden Shogun.
+            Macaroon-shaped candle with soft Lavender scent to help relaxing
+            your mind
+          </h3>
+        </div>
+
+        <div class="menu-card">
+          <div class="img-wrapper" id="container">
+            <img src="./img/8.png" alt="" id="myimg" />
+          </div>
+          <h2>Sapientia</h2>
+          <h3 class="menu-card-title">
+            Cake candle inspired from Dendro Archon, Nahida. Cookie-shaped
+            candle with sweet Fruity Peebles scent make you want to eat the
+            cookie
+          </h3>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Shop Section End -->
+
+    <!-- Gallery Section Start -->
+
+    <section id="galeri" class="galery">
+      <h1>Gallery</h1>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/1.png" alt="Candle" class="menu-card-img" />
+          <h2>Carmen</h2>
+          <h3 class="menu-card-title">
+            Tea blends inspired from Anemo Archon, Venti. Combination of White 
+            Peony tea & Mint leaves for refreshing & calming your senses
+          </h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/2.png" alt="Candle" class="menu-card-img" />
+          <h2>Lapis</h2>
+          <h3 class="menu-card-title">
+            Tea blends inspired from Geo Archon, Zhongli. Combination of 
+            Keemun black tea & Osmanthus flower for a sweet & flowery taste
+          </h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/3.png" alt="Candle" class="menu-card-img" />
+          <h2>Umbrosa</h2>
+          <h3 class="menu-card-title">
+            Tea blends inspired from Electro Archon, Raiden Shogun. Combination of Sencha 
+            green tea, Butterfly Pea, & Roselle for lighten up your mood
+          </h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/4.png" alt="Candle" class="menu-card-img" />
+          <h2>Sapientia</h2>
+          <h3 class="menu-card-title">
+            Tea blends inspired from Dendro Archon, Nahida. Combination 
+            of Rooibos red tea & mix dried fruits for sweet & sour taste
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+        <a href="https://www.instagram.com/eunoia_teacandle/"
+          ><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <div class="link">
+        <a href="#">Home</a>
+        <a href="#ebaut">About Us</a>
+        <a href="#galeri">Gallery</a>
+        <a href="#kontak">Contact Us</a>
+      </div>
+
+      <div class="credit">
+        <p>© 2023, Eunoia – Tea & Candle.</p>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- NavBaar iCONS -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
